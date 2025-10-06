@@ -1,0 +1,143 @@
+@font-face{
+    font-family:NeueMachina;
+    src:url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+@font-face{
+    font-family:NeueMachina2;
+    src:url(./NeueMachina-Bold_WaMOsLX9Z9.ttf);
+}
+@font-face{
+    font-family:NeueMachina3;
+    src:url(./NeueMachina-Regular_DQCmjH1st.ttf);
+}
+@font-face{
+    font-family:Remixicons;
+    src:url(./NeueMachina-Medium_3mXH8m7bM.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+      overflow-x:hidden;
+}
+
+
+#main{
+  width:100vw;
+  min-height:100vh;
+  background:rgb(26, 26, 26);
+  padding:20px;
+
+
+}
+#parentCard{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+#main h1{
+    font-family:NeueMachina;
+    color:white;
+    font-size:70px;
+    margin-top:30px;
+    font-weight:400;
+    margin-left:37px;
+    
+}
+
+
+/* parent card -> flex */
+
+
+
+#parentCard #card{
+    
+    width:400px;
+    background:rgb(40, 40, 40);
+    border-radius:20px;
+    margin-top:50px;
+     overflow:hidden;
+     padding-bottom:10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor:pointer;
+     
+     
+}
+
+#card img{
+    width:100%;
+}
+#card #top{
+  padding:10px;
+}
+
+
+
+
+#top h2{
+    color:rgb(240, 237, 237);
+    font-size:24px;
+    font-family:Remixicons;
+    margin-bottom:15px;
+}
+
+#top span{
+    color:white;
+    font-size:18px;
+    border-radius:5px;
+    background:rgb(26, 26, 26);
+    padding:10px 30px;
+    font-family:NeueMachina3;
+   
+}
+
+
+/* bottom card */
+
+#bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top:20px;
+    padding:10px 13px;
+   
+}
+
+#bottom #left{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    
+}
+
+#left span{
+    color:#1DC198;
+     font-size:17px;
+     
+}
+
+#left #priceSection{
+    display:flex;
+  gap:10px;
+  align-items:center;
+  font-size:20px;
+  color:white;
+ 
+}
+#priceSection small{
+    text-decoration:line-through;
+}
+
+#right h3{
+    color:black;
+    font-size:12px;
+    cursor:pointer;
+    margin-top:19px;
+    background:white;
+    border-radius:30px;
+    padding:10px;   
+    
+}

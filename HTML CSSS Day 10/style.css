@@ -1,0 +1,57 @@
+@font-face {
+  font-family: loveFont;
+  src: url(./another_danger/Another\ Danger\ -\ Demo.otf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+#container{
+    width:100vw;
+    height:100vh;
+    background:url(./love.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    text-align:left;
+    padding-left: 50px;
+
+}
+
+#container h1{
+    font-family:loveFont;
+    font-size:80px;
+    margin-left:20px;
+   
+    padding-top:100px;
+
+}
+
+#container button{
+    font-family:loveFont;
+    font-size:18px;
+    padding:9px 50px;
+    border:2px solid #FF9B16;
+    background:#ED3310;
+    color:white;
+    border-radius:5px;
+    margin-left:15px;
+    cursor:pointer;
+    
+}
+
+/* #container span{
+    background:linear-gradient(to right,#FF9B16,#ED3310,white);
+    border-radius:500px;
+    border:none;
+    
+
+    
+} */
+.design{
+    color:red;
+}
